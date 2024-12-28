@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pattaya&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+@font-face {
+    font-family: 'Serif-Pro';
+    src: url(fonts/Serif-Pro/SourceSerifPro-Regular.otf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Variáveis */
+:root{
+    --font-padrao: 'Serif-Pro';
+    --font-titulo: "Pattaya";
+    --font-sub-titulo: "Orelega One";
+}
+/* Imagem de Fundo */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/pexels.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 976px;
+}
+
+
+/* Box Principal (do Centro) */
+#caixa-principal{
+    min-width: 320px;
+    max-width: 840px;
+    height: 798px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.34);
+}
+
+/* Header Div (h1) */
+#header-div-h1{
+    height: 100px;
+    width: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-h1{
+    font-family: "Pattaya", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 1px 1px 3px white;
+    color: white;
+}
+
+/* Main imagem */
+main img#foto-perfil{
+    display: block;
+    margin: auto;
+}
+
+/* Main div (h2) */
+#main-div-h2{
+    height: 60px;
+    width: 840px;
+    font-family: var(--font-sub-titulo);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Main Paragráfo */
+main > p{
+    height: 160px;
+    width: 820px;
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    text-shadow: 2px 1px 5px rgba(255, 255, 255, 0.316);
+    color: white;
+}
+
+/* Article Div (h3) */
+#article-div-h3{
+    height: 70px;
+    width: 840px;
+    font-family: var(--font-sub-titulo);
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+
+/* Nav = ul - li - a*/
+nav{
+    height: 150px;
+    font-family: var(--font-padrao);
+}
+
+ul{
+    height: 130px;
+    width: 430px;
+}
+
+li{
+    font-size: 27px;
+    list-style: none;
+    color: white;
+}
+
+span{
+    text-shadow: 2px 1px 5px rgba(255, 255, 255, 0.316);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
