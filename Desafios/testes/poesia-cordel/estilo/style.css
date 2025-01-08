@@ -15,7 +15,6 @@
 
 body{
     height: 100%;
-    border: 2px solid red;
 }
 
 /* Header */
@@ -48,19 +47,115 @@ header p > a{
 }
 
 /* Main */
-.estrofe-one{
+/* Estrofe um */
+.artc-estrofe-one{
     max-height: 310px;
     width: 300px;
-    margin-top: 65px;
+    margin: 70px 0px;
 }
 
-.estrofe-one > p{
+.artc-estrofe-one > p{
     font-family: var(--font-padrao);
     font-size: 24px;
     padding-left: 25px;
 }
 
+/* img 01 */
 .img01{
-    height: 100px;
-    background-image: url(../imagens/background001.jpg);
+    height: 400px;
+    margin: auto;
+    background: black url(../imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
+
+/* Estrofe dois */
+.artc-estrofe-two{
+    width: 310px;
+    margin-left: 10px;
+}
+
+.div-estrofe-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 398px;
+}
+
+.artc-estrofe-two > .div-estrofe-two > p{
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    padding-left: 10px;
+    width: 285px;
+    text-shadow: 3px 1px 5px black;
+    background-color: rgba(0, 0, 0, 0.276);
+    color: white;
+}
+
+/* Estrofe três */
+.estrofe-three{
+    max-width: 300px;
+    margin: 70px 0px;
+}
+
+.estrofe-three > p{
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+/* img dois */
+.img02{
+    height: 400px;
+    margin: auto;
+    background: black url(../imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+/* Estrofe quatro */
+.artc-estrofe-four{
+    width: 310px;
+    margin-left: 10px;
+
+}
+
+.div-estrofe-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 398px;
+}
+
+.artc-estrofe-four > .div-estrofe-four > p{
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    padding-left: 10px;
+    text-shadow: 3px 1px 5px black;
+    width: 285px;
+    background-color: rgba(0, 0, 0, 0.456);
+    color: white;
+}
+
+.artc-estrofe-five{
+    max-width: 310px;
+    margin: 70px 0px 100px 0px;
+}
+
+.artc-estrofe-five > p{
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+
+
+
