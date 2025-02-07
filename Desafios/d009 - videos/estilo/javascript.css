@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+}
+
+header{
+    text-align: center;
+    color: lightgrey;
+    margin: 10px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+div.link-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.link-video > button{
+    height: 30px;
+    width: 180px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+}
+
+div.link-video button > a{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+div.button-voltar button a > img{
+    background-color: black;
+}
+
+
+
+
