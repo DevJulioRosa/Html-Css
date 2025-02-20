@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-padrao: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 20vh;
+    width: 100vw;
+    border-radius: 0px 0px 10px 10px;
+    background: black url(pictures/img-header.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#logo-header {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    bottom: 10px;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 14vh;
+    gap: 20px; 
+    border: 1px solid red;
+}
+
+nav a {
+    font-family: var(--fonte-padrao);
+    padding: 5px 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+nav a:hover {
+    background-color: rgba(55, 55, 55, 0.787);
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+
