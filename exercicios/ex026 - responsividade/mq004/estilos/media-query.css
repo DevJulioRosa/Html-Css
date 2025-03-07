@@ -2,6 +2,154 @@
 
 /* Todas as Demais Mídias*/
 
+/* Typical Device Breakpoints
+
+Celulares menores: 576px até 767.98px
+Celulares e alguns Tablets: 768px até 991.98px
+Tablets: 992px até 1199.98px
+Notebooks: 1200px até 1399.98px
+Desktop e Telas maiores: 1400px
+
+*/
+
+
+/* IMPRESSÃO */
 @media print {
-    
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário*/
+    }
+
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after{
+        text-decoration: overline;
+        content: 'Essa Impressão foi Feita Através do Site Www.CursoemVideo.Com';
+    }
+
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    img{
+        display: block;
+        margin: auto 
+    }
+
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: block;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
 }
+
+
+/* TABLETS */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img{
+        display: block;
+        margin: auto 
+    }
+
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: block;
+    }
+    img#print{
+        display: none;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: none;
+    }
+     
+}
+
+
+/* NOTEBOOKS */
+@media screen and (min-width: 1200px) and (max-width: 1399.98px) {
+
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: none;
+    }
+    img#pc{
+        display: block;
+    }
+    img#tv{
+        display: none;
+    }
+
+}
+
+/* DESKTOP E TELAS MAIORES  */
+@media screen and (min-width: 1400px) {
+
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img{
+        display: block;
+        margin: auto;
+    }
+
+    img#phone{
+        display: none;
+    }
+    img#tablet{
+        display: none;
+    }
+    img#print{
+        display: none;
+    }
+    img#pc{
+        display: none;
+    }
+    img#tv{
+        display: block;
+    }
+
+}
+
