@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Queries</title>
 
-    <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header>
 
         <h1>Meu Site</h1>
@@ -52,6 +54,7 @@
     </main>
 
     <script>
+
         function clickMenu() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
