@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+
+            <div id="imagem">
+             <!-- Adicinado a Imagem -->   
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+
+                <p>Seja Bem-Vindo(a) novamente, Faça Login para acessar sua conta e poder fazer as configurações no seu Ambiente.</p>
+
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div class="input">
+
+                        <label for="IEmail">
+
+                            <span class="material-symbols-outlined">
+                                person
+                            </span>
+
+                        </label>
+                        <input type="email" name="Email" id="IEmail" autocomplete="email" required placeholder="Seu Email">
+                    </div>
+                    
+                    <div class="input">
+
+                        <label for="ISenha">
+
+                            <span class="material-symbols-outlined">
+                                Key
+                            </span>
+                        </label>
+
+                        <input type="password" name="Senha" id="ISenha" autocomplete="current-password" required minlength="8" maxlength="12" placeholder="Sua Senha">
+                    </div>
+
+                    <div id="entrar-resetsenha">
+                        <input type="submit" value="Entrar">
+
+                        <input type="reset" value="Esqueci a Senha" autocomplete="new-password">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
