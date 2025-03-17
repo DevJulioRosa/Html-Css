@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
 </head>
 <body>
     <main>
@@ -16,6 +16,7 @@
             <div id="imagem">
              <!-- Adicinado a Imagem -->   
             </div>
+
             <div id="formulario">
                 <h1>Login</h1>
 
@@ -47,10 +48,11 @@
                         <input type="password" name="Senha" id="ISenha" autocomplete="current-password" required minlength="8" maxlength="12" placeholder="Sua Senha">
                     </div>
 
-                    <div id="entrar-resetsenha">
-                        <input type="submit" value="Entrar">
+                    <div id="menu-footer">
+                        <input type="submit" value="Entrar" class="entrar" id="input">
 
-                        <input type="reset" value="Esqueci a Senha" autocomplete="new-password">
+                        <input type="reset" value="Esqueci a Senha" autocomplete="new-password" class="sair" id="input">
+
                     </div>
                 </form>
             </div>

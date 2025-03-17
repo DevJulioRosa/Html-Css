@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+/* Typical Device Breakpoints
+
+Celulares menores: 576px até 767.98px
+Celulares e alguns Tablets: 768px até 991.98px
+Tablets: 992px até 1199.98px
+Notebooks: 1200px até 1399.98px
+Desktop e Telas maiores: 1400px
+
+*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -25,7 +35,7 @@ section#login{
     width: 250px;
     border-radius: 10px;
     background-color: white;
-    
+    box-shadow: 2px 2px 5px black;
 }
 
 div#imagem{
@@ -45,39 +55,65 @@ main > section > div#formulario > p{
     margin: 10px;
 }
 
-main > section > div#formulario > form > div.input {
-    height: 30px;
-    width: 240px;
-    margin: 0px 5px 2px 5px;
-    border-radius: 10px;
+main > section > div#formulario > form > div.input {  
+    height: 36px;
+    width: 232px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 7px;
     background-color: var(--marrom-02);
 }
 
-main > section > div#formulario > form > div.input > label > span {
-    padding: 3px 2px 3px 5px;
+main > section > div#formulario > form > div.input > label {
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 main > section > div#formulario > form > div.input > input {
-    height: 30px;
-    font-weight: bold;
-    border-radius: 10px;
-    background-color: rgb(185, 240, 238);
-    
+    height: 28px;
+    width: 190px;
+    position: relative;
+    left: 7px;
+    bottom: 2px;
+    border: none;
+    border-radius: 7px;
 }
 
-main > section > div#formulario > form > div#entrar-resetsenha {
-    height: 90px;
+main > section > div#formulario > form > div.input > input:hover{
+    background-color: lightgrey;
+}
+
+main > section > div#formulario > form > div#menu-footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    border-radius: 10px;
+    height: 66px;
+    border-radius: 7px;
 }
 
-main > section > div#formulario > form > div#entrar-resetsenha > input {
-    height: 30px;
-    width: 250px;
-    border-radius: 10px;
+main > section > div#formulario > form > div#menu-footer > input {
+    height: 55px;
+    width: 232px;
+    position: relative;
+    left: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 1px solid rgb(80, 121, 110);
+}
+
+main > section > div#formulario > form > div#menu-footer > input#input:hover{
+    background-color: rgb(83, 119, 110);
+}
+
+main > section > div#formulario > form > div#menu-footer > input.entrar{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(112, 174, 157);
+}
+
+main > section > div#formulario > form > div#menu-footer > input.sair {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.785);
 }
 
 
