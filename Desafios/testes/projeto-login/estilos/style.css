@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
-/* Typical Device Breakpoints
+/* 
+Style for: Celulares Menores
 
-Celulares menores: 576px até 767.98px
+Typical Device Breakpoints:
+
+Celulares menores: 576px até 767.98px 
 Celulares e alguns Tablets: 768px até 991.98px
 Tablets: 992px até 1199.98px
 Notebooks: 1200px até 1399.98px
 Desktop e Telas maiores: 1400px
 
 */
-
 
 /*  Configurações Gerais */
 *{
