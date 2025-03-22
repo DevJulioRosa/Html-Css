@@ -10,16 +10,3 @@ Desktop pequenos: 769px até 1024px
 Desktop e Telas maiores: 1025px pra cima
 
 */
-
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-
-    body, html{
-        background-color: red;
-    }
-}
