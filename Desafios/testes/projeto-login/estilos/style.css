@@ -36,8 +36,8 @@ main{
 /*  Section: Login */
 section#login{
     width: 250px;
-    height: 450px;
-    border-radius: 10px;
+    height: 480px;
+    border-radius: 20px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
     background-color: white;
 }
@@ -45,7 +45,7 @@ section#login{
 /*  Imagem do Main */
 section > div#imagem{
     height: 170px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
     background: var(--marrom-02) url(../imagens/pexels-predio.jpg) center bottom no-repeat;
     background-size: cover;
 }
@@ -69,9 +69,9 @@ main > section > div#formulario > p{
 
 /*  Divs > Icons e Inputs */
 main > section > div#formulario > form > div.input {  
-    height: 35px;
+    height: 40px;
     margin: 3px;
-    margin-top: 5px;
+    margin-top: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     background-color: var(--marrom-02); 
@@ -81,15 +81,16 @@ main > section > div#formulario > form > div.input {
 /*  Icons */
 main > section > div#formulario > form > div.input > label > span{
     position: relative;
-    top: 5px;
+    top: 7px;
     left: 8px;
 }
 
 /*  Input: Email e Senha */
 main > section > div#formulario > form > div.input > input {
     width: 200px;
-    height: 28px;
+    height: 30px;
     position: relative;
+    top: 2px;
     left: 10px;
     border: none;
     border-radius: 10px;
@@ -102,10 +103,10 @@ main > section > div#formulario > form > div.input > input:hover{
 
 /*  Box: Entrar e Esq. Senha */
 main > section > div#formulario > form > div#menu-footer {
-   height: 75px;
+   height: 85px;
    display: flex;
    flex-direction: column;
-   border-radius: 10px;
+   border-radius: 20px;
    border: none;
 }
 
