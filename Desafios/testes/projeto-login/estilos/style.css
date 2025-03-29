@@ -30,7 +30,6 @@ main{
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    border: 1px solid red;
 }
 
 /*  Section: Login */
@@ -40,6 +39,7 @@ section#login{
     border-radius: 20px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.25);
     background-color: white;
+    overflow: hidden;
 }
 
 /*  Imagem do Main */
@@ -70,8 +70,7 @@ main > section > div#formulario > p{
 /*  Divs > Icons e Inputs */
 main > section > div#formulario > form > div.input {  
     height: 40px;
-    margin: 3px;
-    margin-top: 10px;
+    margin: 3px 3px 1px 3px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     background-color: var(--marrom-02); 
@@ -112,9 +111,9 @@ main > section > div#formulario > form > div#menu-footer {
 
 /*  Entrar e Esq. Senha */
 main > section > div#formulario > form > div#menu-footer > input {
-    height: 35px;
-    margin: 3px;
-    border-radius: 10px;
+    height: 45px;
+    margin: 10px 3px 0px 3px;
+    border-radius: 5px;
     border: 1px solid var(--marrom-02);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
     font-size: 15px;
@@ -124,6 +123,11 @@ main > section > div#formulario > form > div#menu-footer > input {
 /*  Input: Entrar */
 main > section > div#formulario > form > div#menu-footer > input.entrar{
     background-color: #438e8c5b;
+}
+
+/*  Input: Sair */
+main > section > div#formulario > form > div#menu-footer > input.sair{
+    margin: 5px 2px 0px 2px;
 }
 
 /*  Hover Inputs: Entrar e Esq. Senha */
