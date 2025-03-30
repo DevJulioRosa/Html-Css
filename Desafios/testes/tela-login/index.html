@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body>
+    <main>
+        <section id="login">
+
+            <div id="container_header-login">
+                <div id="header-login">
+                    <h1>Login</h1>
+                </div>
+            </div>
+
+            <div id="formulario">
+
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div id="user">
+                        
+                        <input type="name" name="IUsername" id="Username" autocomplete="name" placeholder="Username" min required>
+
+                        <label for="Username">
+                            <span class="material-symbols-outlined">
+                                account_circle
+                            </span>
+                        </label>
+
+                    </div>
+
+                    <div id="password">
+
+                        <input type="password" name="IPassword" id="Password"  autocomplete="current-password" placeholder="Password" minlength="6" maxlength="12" required>
+
+                        <label for="Password">
+                            <span class="material-symbols-outlined">
+                                lock
+                            </span>
+                        </label>
+
+                    </div>
+
+                    <div id="remember-forgot_password">
+                        
+                        <input type="checkbox" name="ILembrar" id="Lembrar">
+                        
+                        <label for="Lembrar">
+                            Remember Me
+                        </label>
+
+                        <a href="#">
+                             Forgot Password
+                        </a>
+
+                    </div>
+
+                    <div id="enter">
+
+                        <input type="submit" value="Login">
+
+                    </div>
+
+                    <div id="no-account">
+
+                        <a href="#">
+                            Não tem uma conta? Crie aqui
+                        </a>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
