@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+
+    <style>
+        div.container {
+            display: flex;
+            flex-flow: row nowrap;
+
+            padding-bottom: 10px;
+
+            background-color: lightsalmon;
+        }
+
+        div.item {
+            flex-basis: 200px;
+
+            text-align: center;
+
+            border: 1px solid black;
+            background-color: lightblue;
+        }                      
+
+        /*Div 1*/
+        div#cxA {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxC {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        /*Div 2*/
+        div#cxA2 {
+            flex-shrink: 1;
+            flex-grow: 0;
+        }
+
+        div#cxB2 {
+            flex-shrink: 0;
+            flex-grow: 2;
+        }
+
+        div#cxC2 {
+            flex-shrink: 0;
+            flex-grow: 1;
+        }
+
+        /*Div 3*/
+        div#cxA3 {
+            flex-shrink: 2;
+            flex-grow: 0;
+        }
+
+        div#cxB3 {
+            flex-shrink: 2;
+            flex-grow: 1;
+        }
+
+        div#cxC3 {
+            flex-shrink: 2;
+            flex-grow: 1;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+    </div>
+
+    <div class="container">
+        <div class="item" id="cxA2">A</div>
+        <div class="item" id="cxB2">B</div>
+        <div class="item" id="cxC2">C</div>
+    </div>
+
+    <div class="container">
+        <div class="item" id="cxA3">A</div>
+        <div class="item" id="cxB3">B</div>
+        <div class="item" id="cxC3">C</div>
+    </div>
+    
+</body>
+</html>
