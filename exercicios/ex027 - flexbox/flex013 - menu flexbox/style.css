@@ -17,6 +17,9 @@ body {
 }
 
 header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     padding: 10px;
 
     color: white;
@@ -24,11 +27,36 @@ header {
 }
 
 header > h1 {
+    flex: 0 0 200px;
+
     border: 1px dotted black;
 }
 
 header > nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
     border: 1px dotted black;
+}
+
+header > nav > a {
+    margin: 5px;
+    padding: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+header > nav > a:hover {
+    transition: background-color .5s;
+
+    color: black;
+    background-color: white;
 }
 
 main {
